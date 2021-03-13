@@ -1,9 +1,12 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 
 export default function Home() {
-  return 
+  return (
     <div>
-      Oiiiiblihyglyahvjsdvjnwejvnewjnvjwencjwn wnvjevjewn wenviwenvikew iovnikewvew
-    </div>;
-  
+      <Button variant="contained" color="primary">
+  Primary
+</Button>
+    </div>
+  );
 }
